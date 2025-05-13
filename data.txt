@@ -1,0 +1,187 @@
+Iniciando testes UDP para o servidor 192.168.15.11...
+
+Resultados para Parte (a) (UDP - Latência e Vazão - Mensagens Pequenas):
+------------------------------------------------------------------------
+| Tam. Msg (Bytes) | Latência Média (s) | Vazão Média (bps) |
+|------------------|--------------------|-------------------|
+  Tamanho: 1 Bytes, Trial 1/3 ... concluído (99871/100000 reps ok)
+  Tamanho: 1 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 1 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 1                | 0.000778110        | 17458.10          |
+  Tamanho: 100 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 100 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 100 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 100              | 0.000409500        | 1954475.62        |
+  Tamanho: 200 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 200 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 200 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 200              | 0.000664910        | 2409252.72        |
+  Tamanho: 300 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 300 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 300 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 300              | 0.000855835        | 2804292.65        |
+  Tamanho: 400 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 400 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 400 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 400              | 0.000912740        | 3505938.15        |
+  Tamanho: 500 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 500 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 500 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 500              | 0.000981432        | 4075751.89        |
+  Tamanho: 600 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 600 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 600 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 600              | 0.001039391        | 4618147.13        |
+  Tamanho: 700 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 700 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 700 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 700              | 0.001099534        | 5093252.87        |
+  Tamanho: 800 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 800 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 800 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 800              | 0.001161347        | 5510913.04        |
+  Tamanho: 900 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 900 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 900 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 900              | 0.001228977        | 5858541.58        |
+  Tamanho: 1000 Bytes, Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 1000 Bytes, Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 1000 Bytes, Trial 3/3 ... concluído (100000/100000 reps ok)
+| 1000             | 0.001321450        | 6054038.06        |
+------------------------------------------------------------------------
+
+Resultados para Parte (b) (UDP - Latência e Vazão - Mensagens Grandes):
+-----------------------------------------------------------------------------
+| Tam. Msg (KB) | Tam. Msg (Bytes) | Latência Média (s) | Vazão Média (bps) |
+|---------------|------------------|--------------------|-------------------|
+  Tamanho: 1 KB (1024 B), Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 1 KB (1024 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 1 KB (1024 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 1             | 1024             | 0.001336193        | 6130859.94        |
+  Tamanho: 2 KB (2048 B), Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 2 KB (2048 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 2 KB (2048 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 2             | 2048             | 0.001359927        | 12047771.52       |
+  Tamanho: 3 KB (3072 B), Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 3 KB (3072 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 3 KB (3072 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 3             | 3072             | 0.001518610        | 16183290.46       |
+  Tamanho: 4 KB (4096 B), Trial 1/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 4 KB (4096 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 4 KB (4096 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 4             | 4096             | 0.001649549        | 19864838.92       |
+  Tamanho: 5 KB (5120 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 5 KB (5120 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 5 KB (5120 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 5             | 5120             | 0.001220490        | 35532021.06       |
+  Tamanho: 6 KB (6144 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 6 KB (6144 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 6 KB (6144 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 6             | 6144             | 0.001021237        | 48129913.40       |
+  Tamanho: 7 KB (7168 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 7 KB (7168 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 7 KB (7168 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 7             | 7168             | 0.001080155        | 53088947.45       |
+  Tamanho: 8 KB (8192 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 8 KB (8192 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 8 KB (8192 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 8             | 8192             | 0.001138177        | 57579835.82       |
+  Tamanho: 9 KB (9216 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 9 KB (9216 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 9 KB (9216 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 9             | 9216             | 0.001244646        | 59290060.90       |
+  Tamanho: 10 KB (10240 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 10 KB (10240 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 10 KB (10240 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 10            | 10240            | 0.001408435        | 58164694.93       |
+  Tamanho: 11 KB (11264 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 11 KB (11264 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 11 KB (11264 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 11            | 11264            | 0.001441364        | 62519381.24       |
+  Tamanho: 12 KB (12288 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 12 KB (12288 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 12 KB (12288 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 12            | 12288            | 0.001533079        | 64125773.32       |
+  Tamanho: 13 KB (13312 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 13 KB (13312 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 13 KB (13312 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 13            | 13312            | 0.001592946        | 66856133.76       |
+  Tamanho: 14 KB (14336 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 14 KB (14336 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 14 KB (14336 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 14            | 14336            | 0.001773498        | 64667732.10       |
+  Tamanho: 15 KB (15360 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 15 KB (15360 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 15 KB (15360 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 15            | 15360            | 0.001837197        | 66887399.05       |
+  Tamanho: 16 KB (16384 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 16 KB (16384 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 16 KB (16384 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 16            | 16384            | 0.001903948        | 68844202.57       |
+  Tamanho: 17 KB (17408 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 17 KB (17408 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 17 KB (17408 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 17            | 17408            | 0.001972952        | 70587189.37       |
+  Tamanho: 18 KB (18432 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 18 KB (18432 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 18 KB (18432 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 18            | 18432            | 0.002101081        | 70181242.90       |
+  Tamanho: 19 KB (19456 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 19 KB (19456 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 19 KB (19456 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 19            | 19456            | 0.002175274        | 71557447.41       |
+  Tamanho: 20 KB (20480 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 20 KB (20480 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 20 KB (20480 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 20            | 20480            | 0.002217176        | 73899730.32       |
+  Tamanho: 21 KB (21504 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 21 KB (21504 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 21 KB (21504 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 21            | 21504            | 0.002325453        | 74007672.54       |
+  Tamanho: 22 KB (22528 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 22 KB (22528 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 22 KB (22528 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 22            | 22528            | 0.002383304        | 75619850.29       |
+  Tamanho: 23 KB (23552 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 23 KB (23552 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 23 KB (23552 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 23            | 23552            | 0.002527585        | 74560954.97       |
+  Tamanho: 24 KB (24576 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 24 KB (24576 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 24 KB (24576 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 24            | 24576            | 0.002597946        | 75678326.17       |
+  Tamanho: 25 KB (25600 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 25 KB (25600 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 25 KB (25600 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 25            | 25600            | 0.002674438        | 76577456.95       |
+  Tamanho: 26 KB (26624 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 26 KB (26624 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 26 KB (26624 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 26            | 26624            | 0.002796351        | 76189986.26       |
+  Tamanho: 27 KB (27648 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 27 KB (27648 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 27 KB (27648 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 27            | 27648            | 0.002865519        | 77190103.20       |
+  Tamanho: 28 KB (28672 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 28 KB (28672 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 28 KB (28672 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 28            | 28672            | 0.002916915        | 78636641.49       |
+  Tamanho: 29 KB (29696 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 29 KB (29696 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 29 KB (29696 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 29            | 29696            | 0.003005449        | 79046213.57       |
+  Tamanho: 30 KB (30720 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 30 KB (30720 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 30 KB (30720 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 30            | 30720            | 0.003067845        | 80108435.17       |
+  Tamanho: 31 KB (31744 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 31 KB (31744 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 31 KB (31744 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 31            | 31744            | 0.003196296        | 79451981.93       |
+  Tamanho: 32 KB (32768 B), Trial 1/3 ... concluído (99999/100000 reps ok)
+  Tamanho: 32 KB (32768 B), Trial 2/3 ... concluído (100000/100000 reps ok)
+  Tamanho: 32 KB (32768 B), Trial 3/3 ... concluído (100000/100000 reps ok)
+| 32            | 32768            | 0.003253288        | 80578406.75       |
+-----------------------------------------------------------------------------
+
+Arquivos de dados gerados: data_latency_small.txt, data_throughput_small.txt, data_latency_large.txt, data_throughput_large.txt
