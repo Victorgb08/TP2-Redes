@@ -1,0 +1,18 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {section}{\numberline {1}Introdução}{2}{section.1}%
+\contentsline {section}{\numberline {2}Experimento 1}{2}{section.2}%
+\contentsline {section}{\numberline {3}Experimento 2}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Enunciado}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Detalhamento do Ambiente do Experimento}{4}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Host A (Testador)}{4}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Host B (Refletor)}{4}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Rede Local (Ethernet)}{5}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Software Utilizado}{5}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Código Fonte Produzido}{5}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Refletor UDP (\texttt {reflector\_udp.c})}{5}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Testador UDP (\texttt {tester\_udp.c})}{6}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Testes Realizados}{12}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Resultados Obtidos}{13}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Tabelas de Resultados}{13}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Gráficos de Resultados}{14}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Análise dos Resultados Obtidos e Conclusões}{18}{subsection.3.6}%

@@ -1,0 +1,86 @@
+ESCOLA DE ENGENHARIA - UFMG
+CURSOS DE GRADUAÇÃO EM ENG. ELÉTRICA e ENG. CONTROLE E AUTOMAÇÃO
+REDES TCP/IP (ELT091/ENG075) - 1
+o Semestre de 2025
+TRABALHO PRÁTICO Nº 2 (20 pontos) - GRADUAÇÃO
+Orientações Gerais
+- Para este trabalho prático deverão ser observados os mesmos grupos do trabalho prático
+anterior.
+- Todos os experimentos deste trabalho deverão ser desenvolvidos em estações utilizando o
+sistema operacional Linux. ATENÇÃO: NÃO serão aceitos trabalhos executados em ambiente
+Windows Subsystem for Linux (WSL).
+- Todos os experimentos deste trabalho deverão ser programados e compilados em linguagem
+C, não se aceitando NENHUMA construção de C++.
+- No Experimento 2 deste trabalho os testes deverão ser realizados em ambiente de rede local,
+com o HOST A sendo uma estação FISICAMENTE DIFERENTE da estação do HOST B (ou
+seja, ambos não podem ser máquinas virtuais dentro de uma mesma máquina física). Sugerese usar uma rede local sem fio (NÃO serão aceitos trabalhos em que os hosts estejam em
+locais fisicamente diferentes, usando comunicação via Internet – p.ex., usando LogMeIn
+Hamachi).
+Experimento 1- Existem dois utilitários de rede muito populares, desenvolvidos originalmente no
+ambiente Unix, mas hoje também disponíveis nos outros sistemas operacionais, que servem para
+determinar se um endereço IP específico está ativo na rede, o valor aproximado do RTT (roundtrip time) até o mesmo e a rota para alcançá-lo: o ping e o traceroute.
+a) Pesquisem e respondam. Qual é a diferença entre o uso do ping e do traceroute? Como
+o ping é implementado (em detalhes, que mecanismos e protocolos da família TCP/IP ele usa
+para funcionar)? Como o traceroute é implementado (em detalhes, que mecanismos e
+protocolos da família TCP/IP ele usa para funcionar)? Forneçam respostas detalhadas e citem
+suas fontes bibliográficas. (A qualidade da pesquisa, das respostas e das fontes consultadas
+impactará fortemente a nota desta questão.)
+b) Usando o traceroute, com a opção de uso de apenas endereços IPv4, levantem o RTT e
+a rota na Internet para cada um dos dois destinos abaixo. Para isso, para cada um dos
+destinos, façam em um mesmo dia útil da semana “medições” em três períodos diferentes: 6-12
+h; 12-18 h; 18-24 h. Em cada um dos períodos façam 10 “medições” de rota e RTT, sendo que
+a média dos 10 valores medidos de RTT representará o valor do RTT daquele período. Depois
+repitam o mesmo procedimento para um dia de fim de semana. Para cada destino, apresentem
+em tabelas todos os valores de RTT obtidos e as médias respectivas, plotem os resultados de
+RTT médio por período do dia em um gráfico tipo histograma e listem as rotas obtidas em cada
+período, destacando possíveis variações nas mesmas.
+DESTINO 1: www.nic.br
+DESTINO 2: www.ufrgs.br
+DESTINO 3: www.ufal.br
+DESTINO 4: www.ufms.br
+c) Baseado nas “medições” feitas, respondam: houve variação do valor do RTT conforme o
+horário ou o dia? Expliquem em detalhes o que ocorreu e busquem justificativas para o
+comportamento observado.
+d) Baseado nas “medições” feitas, respondam: houve variação de rotas conforme o horário ou
+o dia? Expliquem em detalhes o que ocorreu e busquem justificativas para o comportamento
+observado.
+Experimento 2- Façam o Exercício 48 do Capítulo 5 do livro-texto, letras (a) e (b), apenas
+para o protocolo UDP. Para os itens (a) e (b) do exercício, cada teste consiste em repetir
+100.000 vezes a sequência: enviar uma mensagem de tamanho determinado do Host A para o
+Host B e refletir (retornar) a mensagem de volta para o Host A. A latência será o tempo total
+decorrido entre o início e o fim do teste, dividido por 100.000. A vazão (throughput) será o
+tamanho da mensagem (em bits) dividido pela latência (em segundos). Cada teste deverá ser
+repetido três vezes, sendo que a média aritmética destas três execuções é que será o valor
+final a ser considerado. Diferentemente do que pede o livro, apresentem em tabelas os
+resultados do experimento e também façam os gráficos tanto para latência quanto para vazão.
+Discutam os resultados obtidos e busquem justificativas para os comportamentos observados.
+Concluídos os experimentos, produzam o Relatório do Trabalho Prático 2, com a seguinte
+estrutura:
+- Capa (instituição, curso, disciplina, semestre, título do relatório, composição do grupo, data);
+- Introdução (breve descrição do que se trata o relatório);
+- Experimento 1:
+- enunciado;
+- respostas obtidas para o item (a), após pesquisa, com a relação da bibliografia que foi
+consultada para este item;
+- testes realizados para o item (b), com explicação detalhada de como foram feitos, incluindo
+detalhamento do ambiente de cada experimento: caracterização do host (versão do sistema
+operacional, processador, memória RAM, capacidade em disco), caracterização da rede WLAN
+utilizada (versão Wi-Fi, taxa utilizada), taxa nominal de acesso à Internet, demais softwares
+utilizados;
+- resultados obtidos em cada um dos testes (com as tabelas, os gráficos e as rotas);
+- análise dos resultados obtidos e conclusões do experimento;
+- relação da bibliografia adicional consultada para o experimento.
+- Experimento 2
+- enunciado, incluindo o enunciado do Exercício 48 do Capítulo 5 do livro-texto;
+- detalhamento do ambiente de cada experimento: caracterização dos hosts (versão do sistema
+operacional, processador, memória RAM, capacidade em disco), caracterização da rede WLAN
+utilizada (versão Wi-Fi, taxa utilizada), demais softwares utilizados;
+- código fonte produzido, com comentários explicativos para cada seção funcional do mesmo;
+- testes realizados, com explicação detalhada de como foram feitos;
+- resultados obtidos em cada um dos testes (em forma de tabelas e de gráficos);
+- análise dos resultados obtidos e conclusões do experimento;
+- relação da bibliografia consultada para o experimento.
+A qualidade da análise dos resultados obtidos e das conclusões produzidas influenciará
+fortemente na nota final deste trabalho.
+Este Relatório do Trabalho Prático 2 deverá ser entregue em um único arquivo PDF pelo grupo,
+até 23:59 h de 25/06/2025, quarta feira, no espaço da disciplina no Moodle.

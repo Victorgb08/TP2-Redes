@@ -1,0 +1,164 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=2cm,rmargin=2cm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage[siunitx,american]{circuitikz}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage[numbers,square]{natbib} % Configurado para [1] em vez de (1)
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage[hyphens]{url}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{import}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{multicol}
+\usepackage{bm}
+\usepackage{listings}
+\usepackage[newfloat]{minted}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\captionsetup[listing]{position=top}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,  % Cor dos links no texto
+    citecolor=black,   % Cor das citações
+    urlcolor=black,   % Cor dos links de URL
+}
+
+\usepackage[newfloat]{minted}
+\usepackage{caption}
+\captionsetup[listing]{position=top}
+
+% Definindo novas cores
+\definecolor{verde}{rgb}{0.25,0.5,0.35}
+\definecolor{jpurple}{rgb}{0.5,0,0.35}
+% Configurando layout para mostrar codigos Java
+\usepackage{listings}
+% \lstset{
+%   language=C++,
+%   basicstyle=\ttfamily\small\color{blue},
+%   keywordstyle=\color{jpurple}\bfseries,
+%   stringstyle=\color{red},
+%   commentstyle=\color{verde},
+%   morecomment=[s][\color{blue}]{/**}{*/},
+%   extendedchars=true,
+%   showspaces=false,
+%   showstringspaces=false,
+%   numbers=left,
+%   numberstyle=\tiny,
+%   breaklines=true,
+%   backgroundcolor=\color{gray!10!white},
+%   breakautoindent=true,
+%   captionpos=b,
+%   xleftmargin=0pt,
+%   tabsize=4
+% }
+
+\lstset{
+    language=C, % Linguagem do código
+    basicstyle=\ttfamily\small, % Fonte monoespaçada e tamanho pequeno
+    keywordstyle=\color{blue}\bfseries, % Palavras-chave em azul e negrito
+    stringstyle=\color{red}, % Strings em vermelho
+    commentstyle=\color{gray}, % Comentários em cinza
+    numbers=left, % Números das linhas à esquerda
+    numberstyle=\tiny\color{gray}, % Estilo dos números das linhas
+    stepnumber=1, % Incremento dos números das linhas
+    breaklines=true, % Quebra de linhas longa
+    frame=single, % Moldura ao redor do código
+    captionpos=b, % Legenda abaixo do código
+    tabsize=4, % Tamanho do tab
+    showspaces=false, % Não mostrar espaços
+    showstringspaces=false, % Não mostrar espaços em strings
+    breakatwhitespace=true, % Quebrar linhas apenas em espaços
+}
+
+\makeatletter
+\usepackage[colorlinks=true,linkcolor=black,citecolor=red]{hyperref}
+\makeatother
+
+\bibliographystyle{apalike2}
+
+\begin{document}
+
+% ------------------ NOTE -----------------------
+%
+% 1 - You don't need to change the report template, just this file.
+% 2 - Below every command there is a note to help you filling out all fields. All commands
+%     are self-explanatory, but the notes are there anyway in case you need them.
+%
+% -----------------------------------------------
+
+\newcommand{\department}{Departamento de Engenharia Eletrônica}
+
+\newcommand{\code}{ELT087}
+
+\newcommand{\subject}{Redes TCP/IP}
+
+\newcommand{\reporttitle}{TRABALHO PRÁTICO II}
+
+\newcommand{\reportsubtitle}{}
+
+\newcommand{\studentname}{Aluno 1}
+
+\newcommand{\registrationnumber}{Matricula 1}
+
+\newcommand{\Astudentname}{Aluno 2}
+
+\newcommand{\Aregistrationnumber}{Matricula}
+
+\newcommand{\Bstudentname}{Aluno 3}
+
+\newcommand{\Bregistrationnumber}{Matricula 3}
+
+\include{report_template/ReportTemplate-EN}
+
+\tableofcontents
+
+\pagebreak{}
+
+\input{text/trabalho} 
+
+\newpage
+
+\begin{thebibliography}{9}
+
+\bibitem{tanenbaum2011}
+TANENBAUM, Andrew S.; WETHERALL, David J. \textit{Redes de Computadores}. 5. ed. São Paulo: Pearson, 2011. ISBN 9788576059980.
+
+\bibitem{rfc792}
+POSTEL, Jon. \textit{Internet Control Message Protocol}. RFC 792. 1981. Disponível em: \url{https://www.rfc-editor.org/rfc/rfc792.txt}. Acesso em: 12 maio 2025.
+
+\bibitem{beverly2016}
+BEVERLY, Robert. \textit{Yarrp’ing the Internet: Randomized High-Speed Active Topology Discovery}. 2016. Disponível em: \url{https://arxiv.org/abs/1605.03999}. Acesso em: 12 maio 2025.
+
+\bibitem{kurose2021}
+KUROSE, James F.; ROSS, Keith W. \textit{Computer Networking: A Top-Down Approach}. 8. ed. Pearson, 2021.
+
+\bibitem{stevens2003}
+STEVENS, W. Richard; FENNER, Bill; RUDOFF, Andrew M. \textit{UNIX Network Programming, Volume 1: The Sockets Networking API}. 3. ed. Addison-Wesley Professional, 2003.
+
+\bibitem{manpages}
+Linux Programmer's Manual. \textit{man pages} para \texttt{socket(2)}, \texttt{sendto(2)}, \texttt{recvfrom(2)}, \texttt{bind(2)}, \texttt{setsockopt(2)}, \texttt{clock\_gettime(2)}, \texttt{inet\_pton(3)}. Disponível online ou via comando \texttt{man} no sistema Linux.
+
+% Adicione mais \bibitem aqui conforme necessário
+
+\end{thebibliography}
+
+
+\end{document}

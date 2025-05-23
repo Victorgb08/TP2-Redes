@@ -56,8 +56,6 @@ int main() {
             perror("sendto error");
             // Continuar mesmo se sendto falhar para uma solicitação específica
         }
-        // Descomente para depuração:
-        // printf("Refletiu %zd bytes de %s:%d\n", n, inet_ntoa(cliaddr.sin_addr), ntohs(cliaddr.sin_port));
     }
 
     close(sockfd); // Em teoria, nunca alcançado neste loop infinito

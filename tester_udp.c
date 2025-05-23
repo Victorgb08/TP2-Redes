@@ -142,12 +142,6 @@ int main(int argc, char *argv[]) {
                 ssize_t n = recvfrom(sockfd, recv_buffer, RECV_BUFFER_SIZE, 0,
                                  (struct sockaddr *)&servaddr, &len);
                 if (n < 0) {
-                    // if (errno == EAGAIN || errno == EWOULDBLOCK) { // Timeout
-                        // Descomente para depuração de timeout
-                        // printf("T"); fflush(stdout);
-                    // } else {
-                        // perror("recvfrom failed");
-                    // }
                     continue; // Pula esta repetição
                 } else if (n != current_msg_size) {
                     // Resposta com tamanho incorreto
